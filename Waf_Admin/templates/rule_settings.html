@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html>
+<head>
+    {% block title %}ルール設定{% endblock %}
+</head>
+<body>
+    
+    {% block content %}
+        <h1>ルール設定</h1>
+        <form method="POST" action="/rule_settings">
+            <label for="rule_name">ルール名:</label>
+            <input type="text" id="rule_name" name="rule_name" required><br><br>
+            <label for="rule_param">ルールパラメーター:</label>
+            <input type="text" id="rule_param" name="rule_param" required><br><br>
+            <input type="submit" value="保存">
+        </form>
+    {% endblock %}
+</body>
+</html>
