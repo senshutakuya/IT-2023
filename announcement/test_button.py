@@ -32,9 +32,9 @@ if __name__ == '__main__':
     root.title("demo_Tkinter")
     root.geometry("400x400")
 
-    url = "http://10.8.0.1/login/"
-    url2 = "http://10.8.0.1/home/"
-    cookie = {'PHPSESSID': 'il9q48alh73bfn8pq2uc37u3ml'}
+    url = "loginページ"
+    url2 = "ログインした後のページ"
+    cookie = {'PHPSESSID': '対象サイトのクッキー情報'}
     bf = BruteForce(url, url2, cookie)
 
     dos = DOS_attack()
