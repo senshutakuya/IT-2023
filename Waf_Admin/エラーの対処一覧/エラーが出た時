@@ -1,0 +1,9 @@
+jinja2.exceptions.TemplateSyntaxError: unexpected '}'
+
+上のエラーが出た時はbase.htmlやlogin.htmlの%endblockの%が抜けてないか確認
+
+
+
+"GET /static/css/base.css HTTP/1.1" 404 -
+
+上記の場合はcssファイルの場所がちゃんとstaticsフォルダのcssフォルダの中にbase.cssがあるか確認する

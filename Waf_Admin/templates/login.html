@@ -5,12 +5,27 @@
 {% endblock %}
 
 {% block content %}
+<!-- <div class="content"> -->
+    <h1 class="protec_header">protec</h1>
     <h1>ログイン</h1>
-    <form method="POST" action="/login">
-        <label for="username">ユーザー名:</label>
-        <input type="text" id="username" name="username" required><br><br>
-        <label for="password">パスワード:</label>
-        <input type="password" id="password" name="password" required><br><br>
-        <input type="submit" value="ログイン">
+    <!-- URL/homeにPOSTで飛ばす -->
+    <form method="POST" action="/home">
+        
+        <div class="user">
+            <label for="username">ユーザー名:</label>
+            <input type="text" id="username" name="username" required><br><br>
+        </div>
+        <div class="pass">
+            <label for="password">パスワード:</label>
+            <input type="password" id="password" name="password" required><br><br>
+        </div>
+        <div class="login">
+            <input type="submit" value="ログイン">
+        </div>
     </form>
+<!-- </div> -->
+{% endblock %}
+
+{% block footer %}
+
 {% endblock %}

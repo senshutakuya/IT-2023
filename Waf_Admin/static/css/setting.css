@@ -1,0 +1,58 @@
+body{
+    width: 850px;
+    margin-left: 300px;
+}
+
+
+#down_test{
+    width: 50px;
+    border-radius:50%;
+    border: none;
+}
+
+.title_header{
+    display: flex;
+    /* margin-left: 300px; */
+    border-bottom: solid 2px black;
+
+    
+}
+
+.protec_header {
+    width: 400px;
+    margin-left: 350px;
+   font-family: fantasy;
+   font-size: 300%;
+
+    
+}
+
+.rule_content{
+    width: 700px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 2px #FFC107;
+
+}
+
+.rule{
+    text-align: center;
+}
+
+.param{
+    margin-right: 50px;
+}
+
+.check_detail{
+    margin-left: 200px;
+}
+
+.slide_toggle{
+    margin-left: 50px;
+}
+
+.param_detail{
+    margin-right: 150px;
+}
